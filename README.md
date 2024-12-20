@@ -13,7 +13,6 @@
 
 [`Scan Session`](https://trevley-45b9dd2acee8.herokuapp.com/)
 
-https://vercel.com/docs/cli/deploying-from-cli#deploying-projects-from-vercel-cli
 
 ### ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
 
