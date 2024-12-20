@@ -12,7 +12,7 @@
 
 
 [`Scan Session`](https://trevley-45b9dd2acee8.herokuapp.com/)
-<"https://signup.heroku.com/login"><img src="https://img.shields.io/badge/HEROKU%20SIGNUP-white" alt="Pairing Code" width="150"></a>
+
 
 
 ### ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
