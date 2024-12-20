@@ -12,7 +12,9 @@
 
 
 [`Scan Session`](https://trevley-45b9dd2acee8.herokuapp.com/)
-
+<details>
+<summary>GET YOUR SESSION_ID</summary>
+<a href="https://session.giftedtech.my.id"><img src="https://img.shields.io/badge/CLICK%20HERE-green" alt="Pairing Code" width="150"></a>
 
 
 ### ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
