@@ -1,6 +1,6 @@
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#table-of-contents)
 <div align="center" class= "main"> 
-  <img src="https://github.com/Trevley/MATRIX-XMD/blob/0a042221055000d87accea615e23fe5af6b09659/IMG-20241208-WA0046.jpg" width="900" height="900"/>
+  <img src="https://github.com/Trevley/MATRIX-XMD/blob/0a042221055000d87accea615e23fe5af6b09659/IMG-20241208-WA0046.jpg" width="500" height="500"/>
   <h1>MATRIX-MD</h1>
 
 
@@ -11,7 +11,7 @@
 ## BOT MADE BY SIR LIL TREV
 
 
-[`Scan Session`](https://trevley-45b9dd2acee8.herokuapp.com/)
+[`Scan Session`]https://my-whatsapp-bot.herokuapp.com/link-device
 
 
 ### ᴅᴇᴘʟᴏʏ ᴛᴏ ʜᴇʀᴏᴋᴜ
