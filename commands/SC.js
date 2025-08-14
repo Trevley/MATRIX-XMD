@@ -10,7 +10,7 @@ module.exports = {
     description: 'Sends the official GitHub repository and stats for FLASH-MD-V2 WhatsApp bot',
     execute: async (sock, msg) => {
         const chatId = msg.key.remoteJid;
-        const githubRepoUrl = 'https://api.github.com/repos/franceking1/Flash-Md-V2';
+        const githubRepoUrl = 'https://api.github.com/repos/Trevley/MATRIX-XMD';
 
         try {
             const response = await axios.get(githubRepoUrl);
@@ -26,7 +26,7 @@ module.exports = {
 A powerful, open-source WhatsApp bot built for speed, reliability, and ease of use. Designed to deliver blazing-fast responses and rich features for groups and individuals.
 
 *📂 GitHub Repository:*
-https://github.com/franceking1/Flash-Md-V2
+https://github.com/Trevley/MATRIX-XMD
 
 *⭐ Stars:* ${stars}
 *🍴 Forks:* ${forks}
@@ -42,7 +42,7 @@ _Star ⭐ the repository if you like the bot and want to support future developm
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
                         newsletterJid: '120363238139244263@newsletter',
-                        newsletterName: 'FLASH-MD',
+                        newsletterName: 'MATRIX-XMD',
                         serverMessageId: -1
                     }
                 }
