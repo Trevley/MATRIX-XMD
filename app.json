@@ -1,14 +1,14 @@
 {
-  "name": "FLASH-MD-V2.5",
+  "name": "MATRIX-XMD",
   "description": "A WhatsApp bot powered by Baileys.",
-  "repository": "https://github.com/franceking1/FLASH-MD-V2",
+  "repository": "https://github.com/Trevley/MATRIX-XMD",
   "stack": "heroku-24",
   "scripts": {
     "postdeploy": "echo 'Deployment complete!'"
   },
   "env": {
     "SESSION": {
-      "description": "Flash MD session string (required for WhatsApp login)",
+      "description": "MATRIX XMD session string (required for WhatsApp login)",
       "required": true
     },
     "PREFIX": {
@@ -19,7 +19,7 @@
     "YOUR_NUMBER": {
       "description": "Your WhatsApp number in international format (e.g. 254742063632)",
       "required": false,
-      "value": "254742063632"
+      "value": "254729980068"
     },
     "MODE": {
       "description": "Bot mode: 'private' or 'public'",
@@ -34,7 +34,7 @@
     "YOUR_NAME": {
       "description": "Your name or bot owner name",
       "required": false,
-      "value": "FLASH-MD"
+      "value": "MATRIX-XMD"
     },
     "ANTICALL": {
       "description": "Block incoming calls (on/off)",
