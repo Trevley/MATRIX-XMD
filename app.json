@@ -1,0 +1,105 @@
+{
+  "name": "FLASH-MD-V2.5",
+  "description": "A WhatsApp bot powered by Baileys.",
+  "repository": "https://github.com/franceking1/FLASH-MD-V2",
+  "stack": "heroku-24",
+  "scripts": {
+    "postdeploy": "echo 'Deployment complete!'"
+  },
+  "env": {
+    "SESSION": {
+      "description": "Flash MD session string (required for WhatsApp login)",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Comma-separated list of command prefixes (e.g. !, /)",
+      "required": false,
+      "value": "!"
+    },
+    "YOUR_NUMBER": {
+      "description": "Your WhatsApp number in international format (e.g. 254742063632)",
+      "required": false,
+      "value": "254742063632"
+    },
+    "MODE": {
+      "description": "Bot mode: 'private' or 'public'",
+      "required": false,
+      "value": "public"
+    },
+    "WARNINGS": {
+      "description": "Number of warnings before action is taken",
+      "required": false,
+      "value": "3"
+    },
+    "YOUR_NAME": {
+      "description": "Your name or bot owner name",
+      "required": false,
+      "value": "FLASH-MD"
+    },
+    "ANTICALL": {
+      "description": "Block incoming calls (on/off)",
+      "required": false,
+      "value": "on"
+    },
+    "ANTIDELETE": {
+      "description": "Enable anti-delete for messages (on/off)",
+      "required": false,
+      "value": "on"
+    },
+    "AUTO_REACTION": {
+      "description": "Enable auto-reaction to messages (on/off)",
+      "required": false,
+      "value": "off"
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Enable auto view of status updates (on/off)",
+      "required": false,
+      "value": "off"
+    },
+    "AUTO_READ_DM": {
+      "description": "Enable auto-read of direct messages (on/off)",
+      "required": false,
+      "value": "off"
+    },
+    "YOUR_LID": {
+      "description": "Your WhatsApp Lid (used for advanced features or admin control)",
+      "required": false,
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku API key (for automatic restart or deploy)",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your Heroku app name",
+      "required": false
+    },
+    "PRESENCE_DM": {
+      "description": "Bot presence status in DMs (typing, online, recording, paused, offline)",
+      "required": false,
+      "value": "typing"
+    },
+    "PRESENCE_GROUP": {
+      "description": "Bot presence status in groups (typing, online, recording, paused, offline)",
+      "required": false,
+      "value": "recording"
+    },
+    "timezone": {
+      "description": "Timezone for scheduling or logging",
+      "required": false,
+      "value": "Africa/Nairobi"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Basic"
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
