@@ -103,7 +103,7 @@ module.exports = [
                 categorized[category].push(cmd);
             }
 
-            let text = `╭━━━❒ ${applyStyle("FLASH-MD System INFO", 10)} ❒━━━╮\n`;
+            let text = `╭━━━❒ ${applyStyle("MATRIX-XMD System INFO", 10)} ❒━━━╮\n`;
             text += `┃ 🧩 *Commands:* ${allCommands.length.toLocaleString()}\n`;
             text += `┃ 🪄 *Prefix:* ${prefix}\n`;
             text += `┃ ⏰ *Time:* ${time.format('HH:mm:ss')}\n`;
@@ -157,7 +157,7 @@ module.exports = [
         category: 'General',
         execute: async (sock, msg, args, fromJid, allCommands) => {
             const prefix = Array.isArray(config.prefixes) && config.prefixes.length > 0 ? config.prefixes[0] : '.';
-            let text = `*🛠️ FLASH-MD-V2 USER GUIDE*\n\n`;
+            let text = `*🛠️ MATRIX-XMD USER GUIDE*\n\n`;
             text += `To use the bot:\n`;
             text += `• Start commands with the prefix *${prefix}*\n`;
             text += `• Use ${prefix}menu to view all available commands\n`;
