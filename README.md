@@ -15,7 +15,7 @@
 
 | **Platform**        | **Instructions** |
 |---------------------|------------------|
-| **Heroku**          | **Heroku deployment guide**:<br>1. Create an account on [Heroku](https://signup.heroku.com)<br>2. Add a credit card (required for deployment).<br>3. Use [this tool](https://france-king.vercel.app/) to deploy FLASH-MD V2 instantly. |
+| **Heroku**          | **Heroku deployment guide**:<br>1. Create an account on [Heroku](https://signup.heroku.com)<br>2. Add a credit card (required for deployment).<br>3. Use [this tool](https://matrix-md-verification.vercel.app/) to deploy FLASH-MD V2 instantly. |
 | **Render**          | 1. Sign up at [Render](https://render.com) & link GitHub.<br>2. Set Build Command as `npm install` & Start Command as `npm start`.<br>3. Deploy without session env first.<br>4. After first deploy, add `SESSION`, `YOUR_NUMBER`, and `YOUR_LID` to `.env`.<br>5. To keep it 24/7, add your Render app link to `.env`. |
 | **Koyeb**           | 1. Sign up at [Koyeb](https://www.koyeb.com) & link GitHub.<br>2. Set up environment variables: `YOUR_NUMBER`, `YOUR_LID`, `SESSION`.<br>3. Deploy using Node.js auto-detect. |
 | **Railway**         | 1. Sign up at [Railway](https://railway.app) & link GitHub.<br>2. Set Build Command as `npm install` & Start Command as `npm start`.<br>3. Add environment variables: `YOUR_NUMBER`, `YOUR_LID`, `SESSION`.<br>4. Deploy & your bot is live! |
